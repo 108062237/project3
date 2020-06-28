@@ -406,7 +406,7 @@ void write_valid_spot(std::ofstream& fout) {
 
     }
     //std::cout<<heuristic_maxm<<" "<<p.x<<" "<<p.y<<std::endl;
-
+    //
     fout << p.x << " " << p.y << std::endl;
         fout.flush();
 }
